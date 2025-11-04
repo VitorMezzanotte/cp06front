@@ -2,8 +2,8 @@ import express from 'express'
 const router = express.Router()
 
 let produtos = [
-  { id: 1, nome: 'Fiat Uno', marca: 'Fiat', ano: 2010, preco: 18000, imagem: '' },
-  { id: 2, nome: 'Volkswagen Gol', marca: 'VW', ano: 2018, preco: 35000, imagem: '' }
+  { id: 1, nome: 'Fiat Uno', marca: 'Fiat', ano: 2010, preco: 18000, imagem: 'https://cdn.autopapo.com.br/box/uploads/2020/01/14174308/fiat-uno-grazie_mille-2.jpg' },
+  { id: 2, nome: 'Volkswagen Gol', marca: 'VW', ano: 2018, preco: 35000, imagem: 'https://cdn.motor1.com/images/mgl/YAAopq/s3/volkswagen-gol-1.0-2023.jpg' }
 ]
 
 // READ - listar todos
