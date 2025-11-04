@@ -39,7 +39,7 @@ export default function App() {
           </Routes>
         </main>
 
-        {/* FOOTER — sempre no final da tela */}
+        {/* FOOTER */}
         <footer className="bg-indigo-700 text-white text-center py-4 mt-auto shadow-inner">
           <p className="text-sm tracking-wide">
             © 2025 Lore Motorsport — Desenvolvido por{" "}
