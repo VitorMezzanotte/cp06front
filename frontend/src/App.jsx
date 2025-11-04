@@ -13,7 +13,7 @@ export default function App() {
       <div className="min-h-screen bg-gray-100">
         <header className="bg-white shadow">
           <div className="container-max px-6 py-4 flex items-center justify-between">
-            <h1 className="text-2xl font-bold text-indigo-600">Loja de Carros</h1>
+            <h1 className="text-2xl font-bold text-indigo-600">Lore Motorsport</h1>
             <nav className="space-x-4">
               <Link to="/" className="hover:underline">Home</Link>
               <Link to="/portfolio" className="hover:underline">Portfólio</Link>
@@ -38,7 +38,7 @@ export default function App() {
 
         <footer className="bg-white border-t mt-10">
           <div className="container-max px-6 py-6 text-sm text-gray-600">
-            © {new Date().getFullYear()} Loja de Carros - Feito por Vitor Mezzanotte
+            © {new Date().getFullYear()} Lore Motorsport - Developed by Vitor Mezzanotte
           </div>
         </footer>
       </div>
