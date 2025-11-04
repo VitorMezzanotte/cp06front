@@ -28,7 +28,7 @@ export default function App() {
         </header>
 
         {/* CONTEÚDO */}
-        <main className="flex-grow">
+        <main className="flex-grow;">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/portfolio" element={<Portfolio />} />
