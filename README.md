@@ -12,19 +12,19 @@ O objetivo é demonstrar o uso prático das tecnologias estudadas em aula, unind
 
 ---
 
-## 🧱 Estrutura do Projeto
-📁 loja-carros
-├── frontend/ → Aplicação React (interface do usuário)
-│ ├── src/
-│ │ ├── components/ → Páginas e componentes
-│ │ ├── App.jsx → Configuração principal de rotas
-│ │ └── index.css → Estilização global (Tailwind)
-│ └── package.json
-│
-└── backend/ → Servidor Node.js com Express
-├── routes/ → Rotas da API (produtos, login, contato)
-├── server.js → Arquivo principal do servidor
-└── package.json
+### 🧱 Estrutura do Projeto
+
+* **loja-carros/**
+    * **frontend/** (Aplicação React - Interface do usuário)
+        * **src/**
+            * **components/** (Páginas e componentes)
+            * **App.jsx** (Configuração principal de rotas)
+            * **index.css** (Estilização global com Tailwind)
+        * **package.json** (Dependências do Front-end)
+    * **backend/** (Servidor Node.js com Express)
+        * **routes/** (Rotas da API: produtos, login, contato)
+        * **server.js** (Arquivo principal do servidor)
+        * **package.json** (Dependências do Back-end)
 ---
 
 ## 🚀 Funcionalidades
